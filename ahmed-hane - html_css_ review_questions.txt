@@ -55,7 +55,7 @@
 	p.human{}
 	
     22. What is a parent child selector? When would this be useful?
-	a scenario where elements are nested in each other. The outer element becomes the parent while the inner 	becomes the child. This is useful if you want to target the child in order to give it a specific style. 
+	a scenario where elements are nested in each other. The outer element becomes the parent while the inner becomes the child. 		This is useful if you want to target the child in order to give it a specific style. 
     23. How do you select all links within a div with the class of sidebar?
 	div.sidebar a{}
     24. What is a pseudo selector?
@@ -106,11 +106,14 @@ Stretch Questions
     	Block elements will be displayed under each other not next to each other 
 	i.e. <h1>, <p>
 
-    2. What happens when an element is positioned absolutely? 
-    3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width? 
-    4. Name 3 elements that are diplay block by default, 2 elements that are display inline by default and 1 element that is display inline-block by default
+    2. What happens when an element is positioned absolutely?
+	position absolute places an element relative to its parent's position and changing the layout around it. 
+    3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width?
+	use display:flex
+ 
+    4. Name 3 elements that are diplay block by default, 2 elements that are display inline by default and 1 element that is display 		inline-block by default
+	display block by default <p> <h1>
+	display inline: <a> <span> <em> <strong>
     5. In your own words, explain the box model. What is the fix for the box model? 
 
 
-
-   --> 
